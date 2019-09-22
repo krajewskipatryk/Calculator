@@ -1,0 +1,14 @@
+.key {
+  cursor: pointer;
+  height: 40px;
+  width: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  user-select: none;
+}
+
+.key:hover {
+  background-color: #ddd;
+  transition: background-color 100ms;
+}

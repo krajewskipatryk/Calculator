@@ -1,0 +1,9 @@
+.grid {
+  height: 240px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 50px auto;
+
+  display: grid;
+  grid-template: 40px 200px / repeat(4, 50px);
+}

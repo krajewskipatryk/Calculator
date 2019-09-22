@@ -1,0 +1,12 @@
+.calc {
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  grid-area: 1 / 1 / 2 / 5;
+  display: grid;
+}
+
+.value {
+  justify-self: end;
+  align-self: center;
+  margin-right: 5px;
+}
